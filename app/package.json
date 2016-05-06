@@ -1,14 +1,31 @@
 {
-  "name": "wk12Mysql",
+  "name": "date_app",
   "version": "1.0.0",
-  "description": "hw wk-12",
-  "main": "Bamcustomer.js",
+  "description": "its a friend finder app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "morgan": "^1.7.0",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2",
+    "prompt": "^1.0.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.2.5",
+    "request": "^2.70.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djacks44/date_app.git"
   },
   "author": "Davon Jackson",
   "license": "ISC",
-  "dependencies": {
-    "prompt": "^1.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Djacks44/date_app/issues"
+  },
+  "homepage": "https://github.com/Djacks44/date_app#readme"
 }
