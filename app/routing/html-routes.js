@@ -5,11 +5,13 @@ module.exports = function(app){
 
 
 	app.get('/survey', function(req, res){
-		res.sendFile(process.cwd()+"/public/survey.html");
+		// console.log(process.cwd())
+		res.sendFile(process.cwd()+"/app/public/survey.html");
 	});
 
 
 	app.use('/',function(req,res){
+		// console.log(path.join(__dirname + '/../public/home.html'))
 		res.sendFile(path.join(__dirname + '/../public/home.html'));
 	});
 
